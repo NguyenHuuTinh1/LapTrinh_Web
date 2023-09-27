@@ -1,0 +1,92 @@
+.lab1-1 {
+    border: #0a53be 2px double;
+    margin: 20px 100px 100px 100px
+}
+
+#header {
+    color: pink;
+    text-align: center;
+}
+
+#center {
+    display: flex;
+    border-bottom: #0a53be 2px double;
+    border-top: #0a53be 2px double;
+}
+
+#left {
+    flex: 30%;
+    border-right: #0a53be 2px double;
+}
+
+#right {
+    flex: 70%
+}
+
+#footer {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#center h2 {
+    margin: auto;
+}
+
+.lab1-2 {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#header-section {
+    background: #997404;
+    border: #0a3622 2px solid;
+    height: 120px;
+    color: white;
+}
+
+#navigation-bar {
+    display: flex;
+    background: #ccc;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    border: #0a3622 2px solid;
+
+}
+
+#center-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+#content {
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+
+.content-1 {
+    border: #0a3622 2px solid;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 220px;
+    width: 180px;
+    padding-top: 20%;
+    background: #cccccc;
+    color: white;
+}
+#footer-section{
+    height: 120px;
+    width: 900px;
+    border: #0a3622 2px solid;
+    background: #0a53be;
+    color: white;
+}

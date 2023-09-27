@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma Arial sans-serif;
+    font-size: 13px;
+    background-color: #ffffff;
+    width: 1890px;
+    height: 1713px;
+}
+
+#section_normal_1 {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+#section_normal_1 .columns {
+    padding-top: 25px;
+    justify-items: center;
+}
+
+#section_normal_1 .alpha {
+    float: left;
+    padding-left: 360px;
+}
+
+#section_normal_1 .omega {
+    float: right;
+    padding-right: 360px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#section_normal_1 .pix_text {
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: #d3d3d3;
+}
+#section_normal_1 .social_button {
+    padding-right: 10px;
+}
+#section_normal_4_2{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: #333;
+    margin-top: 5px
+}
+#section_normal_4_2 .sixteen{
+    display: flex;
+    justify-items: center;
+    padding-left: 480px;
+    padding-right: 350px;
+    font-family: Arial;
+    color: white;
+}
+#section_normal_4_2 .sixteen .img_style{
+    margin-right: 40px;
+}
+#section_normal_4_2 .sixteen .blue_text{
+    font-size: 25px;
+    color: #0dcaf0;
+    font-weight: bold;
+}
+#section_normal_4_2 .sixteen .big_title{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 500px;
+    height: 80px;
+}
+#section_normal_4_2 .sixteen .normal_text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: lightgrey;
+    width: 380px;
+    height: 150px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#section_normal_4_2 .sixteen .btn_normal{
+   border-radius: 2px;
+    text-decoration: none;
+    background-color: #0dcaf0;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#section_normal_6 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+}
+#section_normal_6 .container .L1_style{
+    height: 0px;
+}
+#section_normal_6 .container .L1_style .editContent {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+
+}
+#section_normal_6 .container .L2_style .editContent{
+    font-size: 15px;
+    color: #b1b1b1;
+    margin-top: 10px;
+    font-family: Tahoma;
+}
+#section_normal_6 .container .stbox {
+    align-items: center;
+    display: flex;
+
+}
+#section_normal_6 .container #supdiv{
+    display: flex;
+
+}
+#section_normal_6 .container .box_1, .box_2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    margin: 30px 20px 50px 20px;
+    width: 600px;
+    height: 160px;
+}
+
+#section_normal_6 .container .b_style{
+    background-color: #f5f5f5;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#section_normal_6 .container .logo_style{
+    border-radius: 50%;
+}
+#section_normal_6 .container .txt_style{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Arial;
+}
+#section_normal_6 .container .env_st{
+    color: #0d6efd;
+}
+.foot_st .container .center_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.foot_st .f1_style .pix_text {
+    color: #5c9a69;
+    font-size: 30px;
+}
+.foot_st .container .center_text .f2_style, .pix_text{
+    font-size: 20px;
+    margin: 30px;
+    width: 600px;
+    text-align: center;
+    color: #bbbbbb;
+    line-height: 1.5;
+}
+.foot_st  .second_link {
+    border: 2px #5c9a69 solid;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    color:#5c9a69;
+    margin-bottom: 30px;
+}
+.foot_st .container .center_text .slow_fade{
+    text-decoration: none;
+    color:#5c9a69;
+}
+.pixfort_st{
+    color:#5c9a69;
+    font-family: Arial;
+    font-weight: bold;
+}
+.foot_st .pix_inline_block{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+}
+.foot_st .pix_inline_block .social_button {
+    margin-right: 15px;
+}
+
+
+
+
+
+
