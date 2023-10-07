@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-account.css">
 </head>
 <body>
-$END$
+<div class="form">
+    <div class="account">
+        <div class="title">
+            <h2>Account</h2>
+        </div>
+        <div class="input-account">
+            <div class="input name">
+                <i class="fa-solid fa-user fa-2xl"></i>
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name">
+                </div>
+            </div>
+            <div class="input email">
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                <div class="input-group">
+                    <input type="email" placeholder="Email Adress">
+                </div>
+            </div>
+            <div class="input password">
+                <i class="fa-solid fa-key fa-rotate-180 fa-2xl"></i>
+                <div class="input-group">
+                    <input type="password" placeholder="Password">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="date-gender">
+        <div class="date-birth">
+            <div class="title">
+                <h2>Date of Birth</h2>
+            </div>
+            <div class="input-date">
+                <input type="datetime-localy" placeholder="DD">
+                <input type="datetime-localy" placeholder="MM">
+                <input type="datetime-localy" placeholder="YY">
+            </div>
+
+        </div>
+        <div class="gender">
+            <div class="title">
+                <h2>Gender</h2>
+            </div>
+            <div class="input-gender">
+                <input type="button" value="Male">
+                <input type="button" value="Female">
+            </div>
+        </div>
+
+    </div>
+    <div class="payment">
+        <div class="title">
+            <h2>Payment Datails</h2>
+        </div>
+        <div class="type-pay">
+            <div class="card">
+                <i class="fa-brands fa-cc-visa fa-2xl"></i>
+                <div>
+                    <input type="button" value="Credit Card">
+                </div>
+            </div>
+            <div class="paypal">
+                <i class="fa-brands fa-cc-paypal fa-2xl"></i>
+                <div>
+                    <input type="button" value="Paypal">
+                </div>
+            </div>
+        </div>
+        <div class="input-group number-card">
+            <i class="fa-regular fa-credit-card fa-2xl"></i>
+            <input type="text" placeholder="Card Number">
+        </div>
+        <div class="cvc-time">
+            <div class="cvc">
+                <i class="fa-solid fa-user fa-2xl"></i>
+                <div class="cvc-sup">
+                    <input type="text" placeholder="Card CVC">
+                </div>
+            </div>
+            <div class="time">
+                <div class="time-left">
+                    <select id="country1">
+                        <option value="australia">Please chooses</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div class="time-right">
+                    <select id="country">
+                        <option value="australia">Please chooses</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="accept">
+        <div class="tile">
+            <h2>Terms and Conditions</h2>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="vehicle1">
+            <label for="vehicle1"> I accpet the terms and conditions for signing up to this service, and hereby confirm
+                I have read the privacy policy</label>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>

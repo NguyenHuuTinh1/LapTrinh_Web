@@ -1,0 +1,71 @@
+.form-contact{
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    border: 10px silver solid;
+    border-radius: 10px 10px 10px 10px
+
+}
+
+
+input, select, textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #EEEEEE;
+    font-size: 20px;
+
+}
+label{
+    font-family: "Consolas";
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-top {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Consolas";
+    font-size: 30px;
+}
+.form-input{
+    padding: 30px;
+}
+.input-group{
+    border-radius: 10px;
+    border: 2px silver solid;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    height: 50px;
+    padding: 10px 20px;
+}
+.input-center{
+    display: flex;
+    justify-content: space-between;
+
+}
+.center{
+    width: 270px;
+}
+.input-comment, textarea{
+    height: 200px;
+    background-color: white;
+}
+.form-bot, submit{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    font-family: Consolas;
+    border-bottom: 1px black solid;
+    width: 650px;
+    border-radius: 20px;
+    padding: 10px;
+}

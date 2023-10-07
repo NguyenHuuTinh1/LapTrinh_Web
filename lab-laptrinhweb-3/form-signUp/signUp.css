@@ -1,0 +1,90 @@
+body{
+    height: 1000px;
+    background-image:url("IMG_0522.JPG") ;
+    background-size: cover;
+
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bolder;
+    font-size: 15px;
+}
+.signUp {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: #F5F5F5;
+    opacity: 0.92;
+    border-radius: 20px;
+
+}
+.signUp .title{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Consolas;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.input-main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+    margin-bottom: 100px;
+
+}
+input{
+    margin-top: 20px;
+    /*height: 50px;*/
+    border-radius: 40px;
+    padding: 20px;
+}
+.submit{
+    background-color: plum;
+    width: 150px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 plum, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+::placeholder, .title{
+    color: #6f42c1;
+}
+.sup-sign{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+}
+.title-sup{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+    font-family: Consolas;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.logo-img{
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title-sign{
+    text-align: center;
+    padding: 50px 0px 10px 0px;
+    font-family: Consolas;
+    color: #6f42c1;
+}
