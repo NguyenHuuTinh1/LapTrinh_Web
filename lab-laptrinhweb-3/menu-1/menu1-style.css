@@ -1,0 +1,33 @@
+.menu{
+   display: flex;
+    border-bottom: 2px #bb2d3b solid;
+    width: 600px;
+    border-left: 5px #bb2d3b solid;
+    margin: 50px;
+
+}
+.menu .list-menu{
+    margin-right: 50px;
+    padding: 10px;
+    position: relative;
+}
+.menu .list-menu:hover {
+    background-color: #bb2d3b;
+    cursor: pointer;
+}
+.sup-menu{
+    display: none;
+    position: absolute;
+    background-color: #cccccc;
+    width: 130px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-top:2px #bb2d3b solid; ;
+}
+.menu .list-menu:hover .sup-menu{
+    display: block;
+}
+.sup-menu-drop{
+    border-bottom: 2px black solid;
+    padding: 10px;
+}
