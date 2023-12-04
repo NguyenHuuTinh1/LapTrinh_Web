@@ -1,0 +1,60 @@
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.form-container{
+    width: 600px;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #999999;
+    border-radius: 10px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.item{
+    background-color: #F7F7F7;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px  #EEEEEE solid;
+    border-radius: 10px;
+}
+.item label{
+    font-size: 9px;
+    font-weight: 600;
+    display: inline-block;
+}
+.item input,select, textarea{
+    width: 100%;
+    background-color: #F7F7F7;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+.item input{
+    height: 28px;
+}
+.col-6{
+    display: flex;
+}
+.content-message, #message{
+    background-color: white;
+}
+
+.btn{
+    width: 100%;
+    margin: 20px 5px;
+    padding: 10px;
+    color: white;
+    background-color: #222222;
+    border-radius: 20px;
+    cursor: pointer;
+}
+

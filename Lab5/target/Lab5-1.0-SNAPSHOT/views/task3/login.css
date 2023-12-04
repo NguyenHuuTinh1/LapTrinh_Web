@@ -1,0 +1,73 @@
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+body{
+    background-image: url("img/background.jpg");
+}
+.main{
+    width: 360px;
+    margin: 40px auto auto;
+    background-color: #f3f2ff;
+    padding: 60px 40px 20px 40px;
+    border-radius: 20px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.login input,.btn-submit{
+    width: 100%;
+    padding: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.btn-submit{
+    width: 60%;
+    background-color: #6f7eff;
+    color: white;
+    box-shadow: 0 10px 20px 2px #6f7eff;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.login-other span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.login-other img{
+    width: 24px;
+}
+.col{
+    padding: 8px;
+    margin: 12px;
+    background-color: white;
+    border-radius: 100%;
+}
+.sign-up{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    color: #6f7eff;
+    cursor: pointer;
+}
+
